@@ -1,0 +1,104 @@
+.bonus-container {
+  border: 1px solid #ccc;
+  width: 1600px;
+  height: Hug 560px;
+  padding: 0px 0px 60px 40px;
+  gap: 10px;
+  border-radius: 24px;
+  background: #FFFFFF;
+  margin: 20px;
+  background-image: url("gold_hundred.jpg");
+  background-size: 40%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.secondary-container {
+  width: 750px;
+  height: 271px;
+  gap: 33px;
+  margin: 40px;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.info-container {
+  width: Fixed 750px;
+  height: Hug 192px;
+  gap: 10px;
+  text-align: left;
+}
+
+.header-container {
+  width: 750px;
+  height: 140px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Bebas Neue;
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #1E2023;
+}
+
+.button-container {
+  width: Hug 357px;
+  height: Hug 46px;
+  gap: 8px;
+  opacity: 0px;
+  margin-top: 60px;
+}
+
+.sign-in {
+  width: Hug 122px;
+  height: Hug 46px;
+  padding: 16px 40px 16px 40px;
+  gap: 0px;
+  border-radius: 100px;
+  opacity: 0px;
+  background: #FFFFFF;
+}
+
+.sign-in-text {
+  width: 42px;
+  height: 14px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Bebas Neue;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: justified;
+  color: #1E2023;
+}
+
+.sign-up {
+  width: Hug 227px;
+  height: Hug 46px;
+  padding: 16px 40px 16px 40px;
+  gap: 0px;
+  border-radius: 100px;
+  opacity: 0px;
+  background: #E51C2F;
+}
+
+.sign-up-text {
+  width: 147px;
+  height: 14px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Bebas Neue;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: justified;
+  color: #FFFFFF;
+}

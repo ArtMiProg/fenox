@@ -1,0 +1,72 @@
+.app-header {
+  width: 1600px;
+  height: 90px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+}
+
+.link-container {
+  width: Hug 405px;
+  height: Hug 21px;
+  gap: 32px;
+  display: flex;
+}
+
+.first-link {
+  width: 129px;
+  height: 21px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Pragmatica;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-align: center;
+  color: #1E2023;
+  text-decoration: none;
+}
+
+.second-link {
+  width: 136px;
+  height: 21px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Pragmatica;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-align: center;
+  color: #1E2023;
+  text-decoration: none;
+}
+
+.third-link {
+  width: 76px;
+  height: 21px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Pragmatica;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-align: center;
+  color: #1E2023;
+  text-decoration: none;
+}
+
+.center {
+  flex: 1;
+  text-align: center;
+}
+
+.sign-in-button {
+  width: Hug 74px;
+  height: Hug 30px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 100px;
+  background: #E51C2F;
+  color: #FFFFFF;
+}

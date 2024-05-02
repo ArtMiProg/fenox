@@ -1,0 +1,41 @@
+.footer {
+  width: 1600px;
+  height: Fixed 110px;
+  padding: 0px 40px 0px 40px;
+  gap: 10px;
+  opacity: 0px;
+  background: #E51C2F;
+}
+
+.upper-part {
+  width: Fill 1520px;
+  height: Hug 40px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  width: Fill 760px;
+  height: 40px;  
+}
+
+.social-icons {
+  width: Fill 760px;
+  height: Hug 40px;
+  gap: 32px;
+  display: flex;
+}
+
+.socialIcons img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.footerLinks a {
+  color: #fff;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,139 @@
+.partners-container {
+  border: 1px solid #ccc;
+  border-radius: 24px;
+  margin: 20px;
+  width: 1600px;
+  height: 626px;
+  padding: 10px 40px 0px 40px;
+  gap: 50px;
+  opacity: 0px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+  width: Fill 1520px;
+  height: Hug 76px;
+  gap: 20px;
+  align-self: center;
+  align-content: center;
+}
+
+.header-itself {
+  width: Fill 1330px;
+  height: Hug 35px;
+  gap: 20px;
+}
+
+.title {
+  width: Fill 1330px;
+  height: Hug 35px;
+  gap: 16px;
+  font-family: Bebas Neue;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.see-all-partners {
+  width: 146px;
+  height: 21px;
+  background: #FFFFFF;
+  border: 0;
+  margin: 0 auto;
+}
+
+.see-all-text {
+  width: 126px;
+  height: 21px;
+  font-family: Pragmatica;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  color: #E51C2F;
+}
+
+.arrow-right {
+  width: 20px;
+  height: 20px;
+  padding: 5px 0px 5px 0px;
+  color: #E51C2F;
+}
+
+.partners-cards {
+  width: 100%;
+  height: Hug 400px;
+  gap: 10px;
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.partner-card {
+  width: Fixed 373px;
+  height: Hug 184px;
+  padding: 30px 0px 0px 0px;
+  gap: 10px;
+  border-radius: 24px;
+  text-align: center;
+}
+
+.partner-logo {
+  width: 160px;
+  height: 80px;
+  padding: 0px 54px 0px 55px;
+  border-radius: 100px;
+  background: #F2F3F5;
+  margin: 0 auto;
+  align-content: center;
+}
+
+.logo-text {
+  width: 51px;
+  height: 22px;
+  top: 29px;
+  left: 55px;
+  font-family: Bebas Neue;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #D7D7D7;
+}
+
+.partner-title {
+  width: 400px;
+  height: 24px;
+  font-family: Pragmatica;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #1E2023;
+}
+
+.legal-title {
+  width: 400px;
+  height: 17px;
+  font-family: Pragmatica;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: center;
+  color: #737373;
+}
+
+.partner-web-site {
+  width: 400px;
+  height: 17px;
+  font-family: Pragmatica;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: center;
+  color: #E51C2F;
+}

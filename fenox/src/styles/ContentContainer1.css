@@ -1,0 +1,161 @@
+.first-container {
+  width: 1600px;
+  height: 728px;
+  margin: 20px;
+  padding: 0px 40px 0px 40px;
+  gap: 120px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("engine-gear-wheels.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.secondary-container {
+  width: 610px;
+  height: 271px;
+  gap: 33px;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.info-container {
+  width: Fixed 610px;
+  height: Hug 192px;
+  gap: 10px;
+  text-align: left;
+}
+
+.header-container {
+  width: 610px;
+  height: 140px;
+  font-family: Bebas Neue;
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #1E2023;
+}
+
+.text-container {
+  width: 610px;
+  height: 42px;
+  font-family: Pragmatica;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-align: left;
+  color: #1E2023;
+}
+
+.button-container {
+  width: Hug (357px)px;
+  height: Hug (46px)px;
+  gap: 8px;
+}
+
+.sign-in {
+  width: Hug 122px;
+  height: Hug 46px;
+  padding: 16px 40px 16px 40px;
+  gap: 0px;
+  border-radius: 100px;
+  opacity: 0px;
+  background: #FFFFFF;
+}
+
+.sign-in-text {
+  width: 42px;
+  height: 14px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Bebas Neue;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: justified;
+  color: #1E2023;
+}
+
+.sign-up {
+  width: Hug 227px;
+  height: Hug 46px;
+  padding: 16px 40px 16px 40px;
+  gap: 0px;
+  border-radius: 100px;
+  opacity: 0px;
+  background: #E51C2F;
+}
+
+.sign-up-text {
+  width: 147px;
+  height: 14px;
+  font-family: Bebas Neue;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: justified;
+  color: #FFFFFF;
+}
+
+.cards-container {
+  width: 903px;
+  height: 203px;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-left: 20px;
+  align-self: flex-start;
+}
+
+.card {
+  width: Fill 294.33px;
+  height: Fixed 203px;
+  padding: 30px;
+  gap: 0px;
+  border-radius: 24px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFFCC;
+}
+
+.card-header {
+  width: 234.33px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Bebas Neue;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 38.4px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #E51C2F;
+  margin: 20px;
+  align-self: flex-start;
+}
+
+.card-text {
+  width: 234.33px;
+  height: 42px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Pragmatica;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-align: left;
+  color: #1E2023;
+  margin-left: 20px;
+  margin-top: 40px;
+  align-self: flex-start;
+}
