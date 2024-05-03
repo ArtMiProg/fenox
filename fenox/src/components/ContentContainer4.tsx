@@ -25,7 +25,7 @@ function ContentContainer4() {
                     </button>
                 </div>
             </div>
-            <div className="partners-cards">
+            <div className="partners-cards" >
                 {partnersData.map((partner, index) => (
                     <div className="partner-card" key={index}>
                         <div className="partner-logo"><span className="logo-text">{partner.logoText}</span></div>

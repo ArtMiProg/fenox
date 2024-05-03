@@ -5,5 +5,5 @@ interface ContentProps {
   }
 
 export function Content({children} : ContentProps){
-    return <>{children}</>
+    return <div className="content">{children}</div>
 }

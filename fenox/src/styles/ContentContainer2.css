@@ -1,5 +1,4 @@
 .gifts-container {
-  border: 1px solid #ccc;
   margin: 20px;
   width: 1600px;
   height: 715px;
@@ -22,6 +21,7 @@
   width: Fill 1330px;
   height: Hug 35px;
   gap: 20px;
+  align-items: center;
 }
 
 .title {
@@ -37,7 +37,7 @@
 }
 
 .see-all-button {
-  width: Hug 146px;
+  width: 750px;
   height: Hug 21px;
   background: #FFFFFF;
   border: 1px #E51C2F;

@@ -1,8 +1,7 @@
 .bonus-container {
-  border: 1px solid #ccc;
   width: 1600px;
   height: Hug 560px;
-  padding: 0px 0px 60px 40px;
+  padding: 0px 40px 60px 40px;
   gap: 10px;
   border-radius: 24px;
   background: #FFFFFF;
