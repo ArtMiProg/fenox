@@ -9,7 +9,7 @@ import EmptyPage from './pages/EmptyPage'
 function App() {
 
   return (
-    <>
+    <div className='App'>
       <BrowserRouter>
           <Header />
           <Content>
@@ -20,7 +20,7 @@ function App() {
           </Content>
           <Footer />
         </BrowserRouter>
-    </>
+    </div>
   )
 }
 
