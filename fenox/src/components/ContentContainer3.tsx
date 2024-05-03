@@ -5,9 +5,14 @@ import Two_rub from "../../public/gift-cards/Two_rub.jpg"
 import Three_rub from "../../public/gift-cards/Three_rub.jpg";
 import Four_rub from "../../public/gift-cards/Four_rub.jpg";
 
-
-
 function ContentContainer3() {
+  const giftCards = [
+    { imageSrc: One_rub, inscription: "Электронный сертификат Ozon номиналом 1000 руб." },
+    { imageSrc: One_and_half, inscription: "Электронный сертификат Ozon номиналом 1500 руб." },
+    { imageSrc: Two_rub, inscription: "Электронный сертификат Ozon номиналом 2000 руб." },
+    { imageSrc: Three_rub, inscription: "Электронный сертификат Ozon номиналом 3000 руб." },
+    { imageSrc: Four_rub, inscription: "Электронный сертификат Ozon номиналом 4000 руб." },
+  ];
 
   return (
     <div className="giftcards-container">
@@ -19,41 +24,15 @@ function ContentContainer3() {
         </div>
       </div>
       <div className="gift-cards">
-        <div className="gift-card">
-          <img src={One_rub} alt="gift-card" />
-          <div className="inscription-plus">
-            <span className="inscription">Электронный сертификат Ozon номиналом 1000 руб.</span>
-            <button className="plus-button"><span className="plus">+</span></button>
+        {giftCards.map((card, index) => (
+          <div className="gift-card" key={index}>
+            <img src={card.imageSrc} alt="gift-card" />
+            <div className="inscription-plus">
+              <span className="inscription">{card.inscription}</span>
+              <button className="plus-button"><span className="plus">+</span></button>
+            </div>
           </div>
-        </div>
-        <div className="gift-card">
-          <img src={One_and_half} alt="gift-card" />
-          <div className="inscription-plus">
-            <span className="inscription">Электронный сертификат Ozon номиналом 1500 руб.</span>
-            <button className="plus-button"><span className="plus">+</span></button>
-          </div>
-        </div>
-        <div className="gift-card">
-          <img src={Two_rub} alt="gift-card" />
-          <div className="inscription-plus">
-            <span className="inscription">Электронный сертификат Ozon номиналом 2000 руб.</span>
-            <button className="plus-button"><span className="plus">+</span></button>
-          </div>
-        </div>
-        <div className="gift-card">
-          <img src={Three_rub} alt="gift-card" />
-          <div className="inscription-plus">
-            <span className="inscription">Электронный сертификат Ozon номиналом 3000 руб.</span>
-            <button className="plus-button"><span className="plus">+</span></button>
-          </div>
-        </div>
-        <div className="gift-card">
-          <img src={Four_rub} alt="gift-card" />
-          <div className="inscription-plus">
-            <span className="inscription">Электронный сертификат Ozon номиналом 4000 руб.</span>
-            <button className="plus-button"><span className="plus">+</span></button>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   )

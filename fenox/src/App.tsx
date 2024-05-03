@@ -4,6 +4,7 @@ import { Content } from './Content'
 import Header from './components/Header'
 import StartPage from './pages/StartPage'
 import Footer from './components/Footer'
+import EmptyPage from './pages/EmptyPage'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
           <Content>
             <Routes>
               <Route path={"/"} element={<StartPage />} />
+              <Route path={"/empty"} element={<EmptyPage />} />
             </Routes>
           </Content>
           <Footer />

@@ -2,27 +2,40 @@ import { Link } from "react-router-dom";
 import "../styles/Footer.css";
 
 function Footer() {
+  const socialLinks = [
+    { src: "/social-icons/vk.jpg", alt: "VK" },
+    { src: "/social-icons/youtube.png", alt: "YouTube" },
+    { src: "/social-icons/viber.jpg", alt: "Viber" },
+    { src: "/social-icons/telegram.png", alt: "Telegram" },
+    { src: "/drives_icon.png", alt: "DRIVE2.RU" }
+  ];
+
+  const footerLinks = [
+    "Политика конфиденциальности",
+    "Пользовательское соглашение",
+    "Правила начисления бонусных баллов",
+    "Договор оферты",
+    "Контакты"
+  ];
 
   return (
     <footer className="footer">
       <div className="upper-part">
         <div className="social-icons">
-          <Link to="#"><img src="/vk_icon.png" alt="VK" /></Link>
-          <Link to="#"><img src="/youtube_icon.png" alt="YouTube" /></Link>
-          <Link to="#"><img src="/viber_icon.png" alt="Viber" /></Link>
-          <Link to="#"><img src="/telegram_icon.png" alt="Telegram" /></Link>
-          <Link to="#"><img src="/drives_icon.png" alt="Drives" /></Link>
+          {socialLinks.map((link, index) => (
+            <Link key={index} to="/empty" className="social-link">
+              <img src={link.src} alt={link.alt} />
+            </Link>
+          ))}
         </div>
         <div className="logo">
           <img src="/fenox.png" alt="Footer Logo" />
         </div>
       </div>
       <div className="footerLinks">
-        <Link to="#">Политика конфиденциальности</Link>
-        <Link to="#">Пользовательское соглашение</Link>
-        <Link to="#">Правила начисления бонусных баллов</Link>
-        <Link to="#">Договор оферты</Link>
-        <Link to="#">Контакты</Link>
+        {footerLinks.map((link, index) => (
+          <Link key={index} to="/empty">{link}</Link>
+        ))}
       </div>
     </footer>
   )

@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router-dom";
 import "../styles/ContentContainer1.css";
 
 function ContentContainer1() {
+  const navigate = useNavigate();
   return (
     <div className="first-container">
       <div className="secondary-container">
@@ -14,8 +16,8 @@ function ContentContainer1() {
           </p>
         </div>
         <div className="button-container">
-          <button className="sign-in"><span className="sign-in-text">ВОЙТИ</span></button>
-          <button className="sign-up"><span className="sign-up-text">ЗАРЕГИСТРИРОВАТЬСЯ</span></button>
+          <button className="sign-in" onClick={() => navigate("/empty")}><span className="sign-in-text">ВОЙТИ</span></button>
+          <button className="sign-up" onClick={() => navigate("/empty")}><span className="sign-up-text">ЗАРЕГИСТРИРОВАТЬСЯ</span></button>
         </div>
       </div>
 
